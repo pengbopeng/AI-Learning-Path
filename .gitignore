@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Datasets (避免上传超大文件)
+*.csv
+*.jpg
+*.png
+*.mp4
+*.weights
+*.pt
+*.pth
+!README.md
+!images/
